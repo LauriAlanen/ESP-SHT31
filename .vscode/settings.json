@@ -1,0 +1,29 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "esp_system.h": "c",
+        "sockets.h": "c",
+        "netdb.h": "c",
+        "sys.h": "c",
+        "err.h": "c",
+        "task.h": "c",
+        "freertos.h": "c",
+        "sht32_mqtt.h": "c",
+        "sht32_wifi.h": "c",
+        "esp_log.h": "c",
+        "sht31_mqtt.h": "c",
+        "sht31_i2c.h": "c",
+        "esp_event.h": "c",
+        "mqtt_client.h": "c",
+        "sht31_wifi.h": "c",
+        "gpio.h": "c",
+        "*.pem": "c",
+        "esp_tls.h": "c",
+        "i2c.h": "c",
+        "system_error": "c",
+        "esp_sleep.h": "c",
+        "event_groups.h": "c",
+        "nvs_flash.h": "c",
+        "semphr.h": "c"
+    }
+}

@@ -1,0 +1,18 @@
+menu "WLAN Config"
+config ESP_WIFI_SSID
+    string "WIFI_SSID"
+config ESP_WIFI_PASSWORD
+    string "WIFI_PASSWORD"
+endmenu
+
+menu "MQTT Config"
+config MQTT_BROKER_URI
+    string "BROKER_URI"
+config MQTT_TEMPERATURE_TOPIC
+    string "MQTT_TEMPERATURE_TOPIC"
+config MQTT_HUMIDITY_TOPIC
+    string "MQTT_HUMIDITY_TOPIC"
+config MQTT_QOS
+    int "MQTT_QOS"
+    default 1
+endmenu
