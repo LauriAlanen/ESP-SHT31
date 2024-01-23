@@ -6,7 +6,7 @@ This project is designed for creating a low-power temperature/humidity sensor us
 
 ### Sensor data plotted in homeassistant
 
-![image](https://github.com/LauriAlanen/ESP-SHT31/assets/80245457/dec3c089-5590-4703-8d6b-e1dfbf2d48c6)
+![image](https://github.com/LauriAlanen/ESP-SHT31/assets/80245457/da741b91-d5f3-4207-9b38-5248b818e7c3)
 
 ## Hardware Requirements
 
