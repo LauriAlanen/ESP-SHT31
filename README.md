@@ -10,11 +10,12 @@ This project is designed for creating a low-power temperature/humidity sensor us
 
 ## Hardware Requirements
 
-- Any ESP board
+- Any ESP board, prerably mini version without power leds.
 - SHT31 Temperature/Humidity Sensor
 - 18650 Battery + Holder
-- Li-on Charging circuit eg. tp4056
+- Li-on Charging circuit eg. TP4056
 - Resistors for voltage divider (optional). Voltage divider is used for voltage monitoring.
+- N-Chanell Mosfet for switching the voltage monitoring on/off, I used ST70A
 
 ## Schematic 
 ![image](https://github.com/LauriAlanen/ESP-SHT31/assets/80245457/358f4ad7-6e31-40f0-a15e-2094c3f8ea4b)
@@ -31,6 +32,8 @@ This project is designed for creating a low-power temperature/humidity sensor us
 - **MQTT Communication:** Sends temperature and humidity data to an MQTT broker over Wi-Fi.
 
 - **I2C Communication:** Utilizes I2C communication to read data from the SHT31 sensor.
+
+- **Voltage Monitoring:** Voltage monitoring is achieved by using a voltage divider mosfet combo. Voltage monitoring can be easily turned on/off to save power. 
 
 ## Getting Started
 
