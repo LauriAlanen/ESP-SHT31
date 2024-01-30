@@ -14,6 +14,11 @@ This project is designed for creating a low-power temperature/humidity sensor us
 - SHT31 Temperature/Humidity Sensor
 - 18650 Battery + Holder
 - Li-on Charging circuit eg. tp4056
+- Resistors for voltage divider (optional). Voltage divider is used for voltage monitoring.
+
+## Schematic 
+![image](https://github.com/LauriAlanen/ESP-SHT31/assets/80245457/358f4ad7-6e31-40f0-a15e-2094c3f8ea4b)
+
 
 ## Features
 
